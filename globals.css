@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+@theme inline {
+  --color-background: hsla(var(--background));
+  --color-background-muted: hsla(var(--background-muted));
+  --color-foreground: hsla(var(--foreground));
+
+  --color-primary: hsla(var(--primary));
+  --color-primary-foreground: hsla(var(--primary-foreground));
+  --color-primary-light: hsla(var(--primary-light));
+
+  --color-secondary: hsla(var(--secondary));
+  --color-secondary-foreground: hsla(var(--secondary-foreground));
+
+  --color-accent: hsla(var(--accent));
+  --color-accent-foreground: hsla(var(--accent-foreground));  
+
+  --color-tertiary: hsla(var(--tertiary));
+  --color-tertiary-foreground: hsla(var(--tertiary-foreground));
+
+  --color-card: hsla(var(--card));
+  --color-card-foreground: hsla(var(--card-foreground));
+
+  --color-border: hsla(var(--border));
+  --color-muted: hsla(var(--muted));
+  --color-muted-light: hsla(var(--muted-light));
+  --color-muted-background: hsla(var(--muted-background));
+
+  --font-primary: 'DM Sans', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+
+  --spacing-21: 84px;
+  --spacing-25: 100px;
+  --padding-21: 84px;
+  --margin-21: 84px;
+}
+
+:root {
+  --background: 240, 20%, 99%;
+  --background-muted: 210, 10%, 96%;
+  --foreground: 225, 13%, 24%;
+
+  --primary: 141, 46%, 55%;
+  --primary-foreground: 0, 0%, 100%;
+  --primary-light: 120, 44%, 94%;
+
+  --secondary: 14, 100%, 70%;
+  --secondary-foreground: 0, 0%, 100%;
+ 
+  --tertiary: 228, 74%, 75%;
+  --tertiary-foreground: 0, 0%, 100%;
+ 
+  --accent: 0, 93%, 84%;
+  --accent-foreground: 0, 0%, 100%;
+
+  --card: 0, 0%, 100%;
+  --card-foreground: 0, 0%, 9%;
+
+  --border: 220 13% 91%;
+  --input: 223 14% 52%;
+  
+  --muted: 224, 13%, 24%;
+  --muted-light: 223, 10%, 52%;
+  --muted-background: 220, 13%, 91%;
+
+}
+
+.dark {
+  --background: 0, 0%, 4%;
+  --background-muted: 0, 0%, 10%;
+  --foreground: 0, 0%, 93%;
+
+  --primary: 122, 54%, 49%;
+  --primary-foreground: 0, 0%, 100%;
+  --primary-light: 120, 44%, 14%;
+
+  --secondary: 14, 100%, 70%;
+  --secondary-foreground: 0, 0%, 100%;
+
+  --accent: 196, 83%, 84%;
+  --accent-foreground: 0, 0%, 9%;
+
+  --card: 0, 0%, 7%;
+  --card-foreground: 0, 0%, 93%;
+
+  --border: 220 13% 91%;
+  --input: 223 14% 52%;
+
+  --muted: 224, 13%, 24%;
+
+  --mist: 220 13% 92%;
+}
+
+body {
+  @apply bg-background text-foreground font-primary;
+}
+
+.container {
+  @apply max-w-[1440px] mx-auto;
+}

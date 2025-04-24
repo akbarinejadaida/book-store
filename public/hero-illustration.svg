@@ -1,0 +1,27 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Monitor/Screen -->
+  <rect x="150" y="100" width="300" height="200" rx="8" fill="#FFFFFF" stroke="#E6E8EC" stroke-width="2"/>
+  <rect x="170" y="120" width="260" height="160" rx="4" fill="#F4F5F6"/>
+  
+  <!-- Person on Left -->
+  <circle cx="200" cy="300" r="40" fill="#58C27D"/>
+  <rect x="180" y="350" width="40" height="60" rx="4" fill="#777E91"/>
+  
+  <!-- Person in Middle -->
+  <circle cx="300" cy="250" r="45" fill="#FF6B2C"/>
+  <rect x="275" y="300" width="50" height="70" rx="4" fill="#23262F"/>
+  
+  <!-- Person on Right -->
+  <circle cx="400" cy="280" r="35" fill="#58C27D"/>
+  <rect x="380" y="320" width="40" height="55" rx="4" fill="#777E91"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="150" cy="150" r="10" fill="#FF6B2C" opacity="0.2"/>
+  <circle cx="450" cy="200" r="15" fill="#58C27D" opacity="0.2"/>
+  <circle cx="350" cy="400" r="12" fill="#FF6B2C" opacity="0.2"/>
+  
+  <!-- Question Mark Icon -->
+  <circle cx="500" cy="150" r="25" fill="#FF6B2C"/>
+  <path d="M495 145 Q495 140 500 140 Q505 140 505 145 L505 150 L495 150" stroke="white" stroke-width="2"/>
+  <circle cx="500" cy="155" r="1" fill="white"/>
+</svg> 

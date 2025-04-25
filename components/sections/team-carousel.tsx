@@ -10,7 +10,7 @@ import { teamData } from '@/data/team';
 export function TeamCarousel() {
   const { width } = useWindowSize();
   
-  const { firstRow, secondRow, cardsPerPage } = useMemo(() => {
+  const { firstRow, cardsPerPage } = useMemo(() => {
     const counts = (() => {
       if (width < 640) return { firstRow: 2, secondRow: 2 };
       if (width < 768) return { firstRow: 3, secondRow: 2 };

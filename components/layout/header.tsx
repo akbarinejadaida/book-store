@@ -3,6 +3,7 @@
 import { NavLink } from './nav-link';
 import { siteConfig } from '@/config/site.config';
 import { mainNavigation } from '@/config/navigation';
+import { ThemeToggle } from './theme-toggle';
 
 export function Header() {
   return (
@@ -24,6 +25,8 @@ export function Header() {
               {item.name}
             </NavLink>
           ))}
+
+          <ThemeToggle />
 
           {/* Sign In Button */}
           <NavLink

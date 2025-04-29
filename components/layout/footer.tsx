@@ -68,7 +68,7 @@ export function Footer() {
       {/* Copyright Section */}
       <div className="bg-muted-background py-4 sm:py-6">
         <p className="container px-4 sm:px-6 lg:px-10 font-secondary font-normal text-[11px] sm:text-xs leading-5 text-muted text-center lg:text-left">
-          Copyright © 2021 UI8 LLC. All rights reserved
+          Copyright © {new Date().getFullYear()} UI8 LLC. All rights reserved
         </p>
       </div>
     </footer>

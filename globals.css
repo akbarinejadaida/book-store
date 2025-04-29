@@ -72,25 +72,28 @@
   --background-muted: 0, 0%, 10%;
   --foreground: 0, 0%, 93%;
 
-  --primary: 122, 54%, 49%;
+  --primary: 122, 69%, 36%;
   --primary-foreground: 0, 0%, 100%;
   --primary-light: 120, 44%, 14%;
 
-  --secondary: 14, 100%, 70%;
+  --secondary: 2, 100%, 70%;
   --secondary-foreground: 0, 0%, 100%;
+ 
+  --tertiary: 228, 74%, 75%;
+  --tertiary-foreground: 0, 0%, 100%;
+ 
+  --accent: 0, 93%, 84%;
+  --accent-foreground: 0, 0%, 100%;
 
-  --accent: 196, 83%, 84%;
-  --accent-foreground: 0, 0%, 9%;
-
-  --card: 0, 0%, 7%;
+  --card: 0, 0%, 17%;
   --card-foreground: 0, 0%, 93%;
 
-  --border: 220 13% 91%;
+  --border: 0, 0%, 21%;
   --input: 223 14% 52%;
 
-  --muted: 224, 13%, 24%;
-
-  --mist: 220 13% 92%;
+  --muted: 224, 9%, 74%;
+  --muted-light: 223, 10%, 52%;
+  --muted-background: 220, 1%, 13%;
 }
 
 body {

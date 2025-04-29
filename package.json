@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "setup": "bun install && bunx cursor-talk-to-figma-mcp",
+    "socket": "bun run src/socket.ts",
+    "figma": "bun run src/figma-integration.ts",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",

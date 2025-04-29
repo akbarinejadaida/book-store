@@ -30,7 +30,7 @@ export function Newsletter() {
         
         <InputWithIcon 
           type='email'
-          className="w-full bg-background rounded-full" 
+          className="w-full bg-card rounded-full" 
           iconClassName="bg-secondary text-secondary-foreground" 
           name="newsletter-email" 
           placeholder="Enter your email" 

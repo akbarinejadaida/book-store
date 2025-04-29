@@ -25,7 +25,7 @@ export function CourseCard({
   price
 }: CourseCardProps) {
   return (
-    <div className="rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    <div className="rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-card">
       <div className="relative h-48 w-full">
         <Image
           src={image}
